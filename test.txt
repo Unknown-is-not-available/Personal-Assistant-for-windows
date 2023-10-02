@@ -1,3 +1,27 @@
+#git add command#
 git add .
-git commit -m "message"
+git commit -m "my message"
 git push origin main
+
+#cmd#
+Thala (important)\Scripts\activate
+
+1) Open personal assistant folder in vs code
+2) open cmd in vscode not powershell 
+3) run 'Thala (important)\Scripts\activate'
+4) run 'python -m mainmod.py'
+5) do your work
+6) for github run "git add ."
+	then	  "git commit -m "my message""
+	then 	  "git push origin main"
+
+*Note: to exclude any folder add the following to .gitignore file
+folder-name/
+eg: Thala (important)/
+
+*Note: to exclude any files add the following to .gitignore
+file-name.extenion/
+eg: test.txt
+
+to exclude specific type of file add as follows *.extention
+eg:*.HTML
