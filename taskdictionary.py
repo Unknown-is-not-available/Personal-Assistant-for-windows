@@ -1,0 +1,22 @@
+com={
+("fire fox",):["firefox","firefox"],
+("chrome",):["chrome","chrome"],
+("telegram desktop","telegram"):["telegram"],
+("file manager","file explorer","this pc","windows explorer"):["explorer","explorer"],
+("camera","webcam"):["windowscamera"],
+("cortana","cornata"):["cortana"],
+("feedback hub",):["pilotshubapp"],
+("get help",):["gethelp"],
+("groove music","music"):["music"],
+("windows mail",):["hxoutlook"],
+("windows map",):["maps"],
+("task manager",):["taskmgr"],
+("edge","microsoft edge","microsoft browser","ms edge"):["msedge"],
+("store","microsoft store","ms store"):["winstore"],
+("paint 3d",):["paintstudio"],
+("snip and sketch","screen shot","screenshot"):["screensketch"],
+("tips",):["whatsnew"],
+("recorder","microsoft recorder"):["soundrec"],
+("libre office","libreoffice"):["soffice","soffice"]
+}
+#sticky notes, weather, photos,
