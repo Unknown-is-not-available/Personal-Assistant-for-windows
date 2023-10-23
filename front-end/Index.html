@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+   
+      <center>
+        <button type="submit" id="subm" name="startbutton" onclick="start()">
+          start
+        </button>
+      </center>
+    
+    <script>
+      function start() {
+        var writin = "wmistake is been found"
+
+        // Create a JSON object to send to the server
+        var data = { text: writin };
+
+        fetch('http://127.0.0.1:5000/', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data); // This will log the response from the server
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+      }
+    </script>
+  </body>
+</html>
